@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog — Quantiva Technology</title>
+  <meta name="description" content="Artículos sobre inteligencia artificial, automatización y productividad para pymes. Blog de Quantiva Technology.">
+  <style>
+    :root { --azul:#2563eb; --tinta:#0f172a; --gris:#64748b; --fondo:#f8fafc; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:'Segoe UI',system-ui,sans-serif; color:var(--tinta); line-height:1.6; background:#fff; }
+    header { display:flex; align-items:center; justify-content:space-between; padding:1.25rem 2rem; border-bottom:1px solid #e2e8f0; }
+    header .logo { font-weight:700; font-size:1.25rem; color:var(--azul); text-decoration:none; }
+    nav a { margin-left:1.5rem; text-decoration:none; color:var(--tinta); font-weight:500; }
+    nav a:hover { color:var(--azul); }
+    .blog-hero { background:var(--fondo); padding:3.5rem 2rem 3rem; text-align:center; border-bottom:1px solid #e2e8f0; }
+    .blog-hero h1 { font-size:2.25rem; line-height:1.2; margin-bottom:.75rem; }
+    .blog-hero p { font-size:1.1rem; color:var(--gris); max-width:560px; margin:0 auto; }
+    .blog-grid { max-width:1060px; margin:3rem auto 4rem; padding:0 2rem; display:grid; gap:2rem; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); }
+    .post-card { background:#fff; border:1px solid #e2e8f0; border-radius:.75rem; overflow:hidden; display:flex; flex-direction:column; transition:box-shadow .2s; }
+    .post-card:hover { box-shadow:0 8px 24px rgba(37,99,235,.1); }
+    .post-card .card-img { width:100%; height:190px; object-fit:cover; display:block; }
+    .post-card .card-body { padding:1.5rem; flex:1; display:flex; flex-direction:column; }
+    .post-card .card-date { font-size:.82rem; color:var(--gris); margin-bottom:.6rem; }
+    .post-card .card-title { font-size:1.15rem; font-weight:700; line-height:1.3; margin-bottom:.6rem; }
+    .post-card .card-title a { text-decoration:none; color:var(--tinta); }
+    .post-card .card-title a:hover { color:var(--azul); }
+    .post-card .card-desc { font-size:.95rem; color:var(--gris); line-height:1.55; flex:1; margin-bottom:1.25rem; }
+    .post-card .card-link { display:inline-block; color:var(--azul); font-weight:600; text-decoration:none; font-size:.95rem; margin-top:auto; }
+    .post-card .card-link:hover { text-decoration:underline; }
+    footer { padding:2.5rem 2rem; text-align:center; color:var(--gris); border-top:1px solid #e2e8f0; font-size:.9rem; }
+    @media(max-width:640px) { .blog-hero h1 { font-size:1.6rem; } header { padding:1rem; } nav a { margin-left:1rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="/">Quantiva</a>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="/#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <div class="blog-hero">
+      <h1>Blog de Quantiva Technology</h1>
+      <p>Ideas, guías y casos de uso sobre IA y automatización para que tu empresa crezca.</p>
+    </div>
+    <div class="blog-grid">
+      
+      <div class="post-card">
+        <img class="card-img" src="/blog/img/que-son-los-agentes-de.webp" alt="Qué son los agentes de IA: cómo funcionan y cómo pueden ayudar a tu empresa">
+        <div class="card-body">
+          <span class="card-date">2026-06-13</span>
+          <div class="card-title"><a href="/blog/que-son-los-agentes-de.html">Qué son los agentes de IA: cómo funcionan y cómo pueden ayudar a tu empresa</a></div>
+          <p class="card-desc">Descubre qué son los agentes de IA, cómo funcionan y qué beneficios concretos aportan a tu pyme. Ejemplos reales y guía para empezar sin ser experto.</p>
+          <a class="card-link" href="/blog/que-son-los-agentes-de.html">Leer artículo &rarr;</a>
+        </div>
+      </div>
+      
+    </div>
+  </main>
+  <footer id="contacto">
+    <p>&copy; 2026 Quantiva Technology &mdash; hola@quantivatechnology.com</p>
+  </footer>
+</body>
+</html>
